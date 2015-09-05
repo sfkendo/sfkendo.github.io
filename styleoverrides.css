@@ -1,0 +1,194 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 23:09:58 Dec 24, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 1:07:24 Sep 5, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+@import url(/web/20141224230958/http://fonts.googleapis.com/css?family=Open+Sans:300,700);
+body, input, textarea{
+	color:#fff;
+	font-size:13px;
+	font-family: 'Open Sans',Arial, sans-serif;
+}
+#page{
+	background:#252339;
+	margin-top:0;
+	min-width:748px;
+}
+#branding img#sfkd_logo{
+  width:15%;
+  position:absolute;
+  top:5%;
+  right:2%;
+}
+#branding{
+	border-top:none;
+	padding:0;
+}
+#branding hgroup{
+	display:none;
+}
+#searchform{
+	display:none;
+}
+#access{
+	background:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow:none;
+}
+#access .assistive-text, #access .skip-link{
+	display:none;
+}
+#access div{
+	margin:0;
+}
+#access ul{
+	margin:0;
+}
+#access .menu{
+	text-transform: uppercase;
+	border-bottom:1px solid white;
+	overflow:auto;
+}
+.singular .entry-title{
+	color:white;
+}
+
+.singular #content{
+	margin:0;
+}
+.singular.page .hentry{
+	padding:0;
+}
+.singular .entry-content{
+	padding:10px 0 0 0;
+	margin:0;
+	
+}
+.entry-content h2{
+	color:white;
+	text-transform:uppercase;
+}
+.entry-content a{
+	color:#9692d9;
+}
+.entry-content a:hover{
+}
+#main{
+	padding-top:0px;
+	float:left;
+	width:64%;
+  margin-right:2%;
+}
+
+
+
+#kendosidebar{
+	float:left;
+	width:33%;
+}
+.sidebarextra{
+  margin-bottom:10px;
+	text-transform:uppercase;
+}
+.sidebartitle{
+  line-height:43px;
+  border-bottom:1px solid white;
+  min-height:43px;
+  font-weight:bold;
+  margin-bottom:16px;
+  text-align:right;
+  text-transform:uppercase;
+}
+.sidebarcontent{
+  margin-bottom:26px;
+  text-transform:uppercase;
+}
+.sidebarcontent table{
+  width:100%;
+}
+
+
+/*photo galleries*/
+#comments {
+	display:none;
+}
+.image-attachment div.attachment{
+	margin:0;
+	background:none;
+	border:none;
+}
+a{
+	color:white;
+}
+.entry-meta{
+	color:#ccc;
+}
+.entry-meta a{
+	font-weight:normal;
+	text-decoration:underline;
+}
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title{
+	width:auto;
+	margin:auto;
+}
+.entry-title{
+	padding-top:0px;
+}
+.singular .entry-title{
+	font-size:21px;
+	line-height:normal;
+}
+#nav-single{
+	width:130px;
+}
+.singular .image-attachment .entry-description{
+	width:auto;
+}
+.image-attachment div.attachment img{
+	margin-bottom:0;
+}
+.image-attachment div.attachment{
+	padding:0;
+}
+.singular .hentry{
+	padding:0;
+}
+.wp-caption-text.gallery-caption{
+	font-family: 'Open Sans',Arial, sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:10px;
+}
+img[class*="wp-image-"], #content .gallery .gallery-icon img{
+	border:none;
+	padding:2px;
+}
+
+/* front page calendar overrides */
+.calnk a{
+  background-color: #eee !important;
+  padding: 0px 5px;
+  border-bottom:0px !important;
+}
+.calnk a span{
+  background-color: #eee !important;
+  text-transform:none !important;
+}
+.sidebarcontent ul{
+  list-style-type:none;
+  margin-left:0px;
+}
+.sidebarcontent ul ul{
+  list-style-type:square;
+  margin-left:20px;
+  margin-bottom:10px;
+}
