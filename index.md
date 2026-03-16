@@ -6,7 +6,7 @@ banner_image: /index_files/men_1000_180.jpg
 banner_alt: men_1000_180
 ---
 
-{% include enrollment-notice.html %}
+{% include enrollment-notice.md %}
 
 <div class="entry-content" markdown="1">
 The sword is the mind.  

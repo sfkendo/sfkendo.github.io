@@ -6,7 +6,7 @@ banner_image: /join_files/reiho_1000_180.jpg
 banner_alt: reiho_1000_180
 ---
 
-{% include enrollment-notice.html %}
+{% include enrollment-notice.md %}
 
 <div class="entry-content" markdown="1">
 <!-- We require every interested student to visit and observe **two complete practices**, prior to enrollment. This allows interested students to have first-hand view of kendo, show their commitment to begin kendo, and allow the prospective student to ask any questions first-hand. -->

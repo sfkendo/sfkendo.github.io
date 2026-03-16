@@ -80,6 +80,9 @@ body, input, textarea{
 .entry-content a{
 	color:#9692d9;
 }
+.covid strong{
+	font-size:16px;
+}
 .entry-content--links a{
 	color:#ffffff;
 	text-decoration:underline;
