@@ -2,7 +2,7 @@
 layout: default
 title: SF Kendo | San Francisco Kendo Dojo
 nav_current: home
-banner_image: /index_files/men_1000_180.jpg
+banner_image: /assets/banners/men_1000_180.jpg
 banner_alt: men_1000_180
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Contact Us | SF Kendo
 nav_current: contact
-banner_image: /contact_files/strike_1000_180.jpg
+banner_image: /assets/banners/strike_1000_180.jpg
 banner_alt: strike_1000_180
 ---
 

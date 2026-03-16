@@ -2,7 +2,7 @@
 layout: default
 title: How to Join | SF Kendo
 nav_current: join
-banner_image: /join_files/reiho_1000_180.jpg
+banner_image: /assets/banners/reiho_1000_180.jpg
 banner_alt: reiho_1000_180
 ---
 
