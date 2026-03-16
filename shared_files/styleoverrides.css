@@ -25,7 +25,7 @@ body, input, textarea{
 #branding img#sfkd_logo{
   width:15%;
   position:absolute;
-  top:5%;
+  top:calc(65px + 5%);
   right:2%;
 }
 #branding{
