@@ -13,15 +13,13 @@ bundle exec jekyll serve
 
 The site will be available at `http://localhost:4000`. Jekyll will watch for changes and rebuild automatically.
 
+## Updating the practice schedule
+
+The practice schedule shown in the right-hand sidebar on every page is part of the shared page shell at `_layouts/default.html`. Edit it there to update it site-wide.
+
 ## Updating the enrollment notice
 
-The enrollment announcement shown on the Home, How to Join, and Contact pages is maintained in one place:
-
-```
-_includes/enrollment-notice.md
-```
-
-Edit the text in that file to update the enrollment message across all three pages at once.
+The enrollment announcement shown on the Home, How to Join, and Contact pages is maintained in one place `_includes/enrollment-notice.md`. Edit the text in that file to update the enrollment message across all three pages at once.
 
 ## Updating instructors
 
