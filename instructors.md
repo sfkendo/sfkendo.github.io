@@ -62,4 +62,4 @@ banner_alt: shinai_1000_180
     </dl>
 
   </div>
-</div><!-- .entry-content -->
+</div>
