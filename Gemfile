@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
 # https://www.ruby-lang.org/en/downloads/releases/
-ruby '2.7.5'
+ruby '3.1.3'
 
 gem 'kramdown', '>= 2.3.1'
+gem 'webrick'
 
 # https://github.com/jekyll/jekyll
 gem 'jekyll'

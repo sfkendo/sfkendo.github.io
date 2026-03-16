@@ -30,7 +30,7 @@ body, input, textarea{
 }
 #branding{
 	border-top:none;
-	padding:0;
+	padding: 65px 0 0 0;
 }
 #branding hgroup{
 	display:none;
