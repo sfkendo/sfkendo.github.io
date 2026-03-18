@@ -1,6 +1,6 @@
 # sfkendo.github.io
 
-The official website for the San Francisco Kendo Dojo, powered by GitHub Pages and Jekyll. Please visit [www.sfkendo.org][2] for more information on the San Francisco Kendo Dojo.
+The official website for the San Francisco Kendo Dojo, powered by GitHub Pages and Jekyll. Please visit [www.sfkendo.org][1] for more information on the San Francisco Kendo Dojo.
 
 ## Running locally with Jekyll
 
