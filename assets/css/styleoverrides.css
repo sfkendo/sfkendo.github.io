@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700);
+
+body.custom-background {
+	background-color: #252339;
+}
+body, input, textarea {
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+#page {
+	background: #252339;
+	margin-top: 0;
+	min-width: 748px;
+}
+#branding {
+	border-top: none;
+	padding: 65px 0 0 0;
+}
+#branding img#sfkd_logo {
+	width: 15%;
+	position: absolute;
+	top: calc(65px + 5%);
+	right: 2%;
+}
+#access {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#access .assistive-text {
+	display: none;
+}
+#access div {
+	margin: 0;
+}
+#access ul {
+	margin: 0;
+}
+#access .menu {
+	text-transform: uppercase;
+	border-bottom: 1px solid white;
+	overflow: auto;
+}
+#main {
+	padding-top: 0;
+	float: left;
+	width: 64%;
+	margin-right: 2%;
+}
+.singular #content {
+	margin: 0;
+}
+.singular .entry-content {
+	padding: 10px 0 0 0;
+	margin: 0;
+	width: auto;
+}
+.entry-content h2 {
+	color: white;
+	text-transform: uppercase;
+}
+.entry-content a {
+	color: #9692d9;
+}
+.entry-content--links a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.covid strong {
+	font-size: 16px;
+}
+a {
+	color: #9692d9;
+}
+#kendosidebar {
+	float: left;
+	width: 33%;
+}
+.sidebartitle {
+	line-height: 43px;
+	border-bottom: 1px solid white;
+	min-height: 43px;
+	font-weight: bold;
+	margin-bottom: 16px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.sidebarcontent {
+	margin-bottom: 26px;
+	text-transform: uppercase;
+}
+.sidebarcontent ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+.sidebarcontent ul ul {
+	list-style-type: square;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.wp-caption-text.gallery-caption {
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+#content .gallery .gallery-icon img {
+	border: none;
+	padding: 2px;
+}

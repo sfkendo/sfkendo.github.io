@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" media="all" href="/assets/css/scraped.css">
+  <link rel="stylesheet" type="text/css" media="all" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" media="all" href="/assets/css/styleoverrides.css">
+</head>
+
+<body class="home page page-template-default custom-background single-author singular two-column right-sidebar">
+
+<div id="page" class="hfeed">
+  <header id="branding" role="banner">
+    <img width="1000" height="180" src="{{ page.banner_image }}" class="attachment-post-thumbnail wp-post-image" alt="{{ page.banner_alt }}">
+    <img src="/assets/logo.png" width="153" height="76" id="sfkd_logo" alt="San Francisco Kendo Dojo">
+  </header><!-- #branding -->
+
+  <div id="main">
+    <header>
+      <nav id="access" role="navigation">
+        <h3 class="assistive-text">Main menu</h3>
+        <div class="menu"><ul>
+          <li class="{% if page.nav_current == 'home' %}current_page_item{% else %}page_item{% endif %}"><a href="/index.html" title="Home">Home</a></li>
+          <li class="{% if page.nav_current == 'join' %}current_page_item{% else %}page_item{% endif %}"><a href="/join.html">How to Join</a></li>
+          <li class="{% if page.nav_current == 'instructors' %}current_page_item{% else %}page_item{% endif %}"><a href="/instructors.html">INSTRUCTORS</a></li>
+          <li class="{% if page.nav_current == 'resources' %}current_page_item{% else %}page_item{% endif %}"><a href="/resources.html">Resources</a></li>
+          <li class="{% if page.nav_current == 'contact' %}current_page_item{% else %}page_item{% endif %}"><a href="/contact.html">Contact Us</a></li>
+        </ul></div>
+      </nav>
+    </header>
+
+    <div id="primary">
+      <div id="content" role="main">
+        {{ content }}
+      </div><!-- #content -->
+    </div><!-- #primary -->
+
+  </div><!-- #main -->
+
+  <div id="kendosidebar">
+    <div class="sidebartitle">Practice Schedule</div>
+    <div class="sidebarcontent">
+      <p><strong>Mondays</strong><br>
+      7:00 PM – 9:00 PM<br>
+      Buddhist Church of San Francisco<br>
+      <a href="https://maps.google.com/maps?q=1881+Pine+Street,+San+Francisco,+CA+94109">1881 Pine St <i>(Entrance on Octavia St)</i><br>San Francisco, CA 94109</a></p>
+      <p><strong>Thursdays</strong><br>
+      7:00 PM – 9:00 PM<br>
+      Japanese Cultural and Community Center of Northern California<br>
+      <a href="https://www.google.com/maps?q=1840+Sutter+Street,+San+Francisco,+CA+94115">1840 Sutter St<br>San Francisco, CA 94115</a></p>
+      <p><strong>Sundays (INT/ADV ASAGEIKO)</strong><br>
+      8:00 AM – 9:00 AM<br>
+      Buddhist Church of San Francisco<br>
+      <a href="https://maps.google.com/maps?q=1881+Pine+Street,+San+Francisco,+CA+94109">1881 Pine St <i>(Entrance on Octavia St)</i><br>San Francisco, CA 94109</a></p>
+      <p>Please see the <a href="/covid.html">current covid policies</a> before attending practice.</p>
+    </div>
+  </div>
+
+  <footer id="colophon" role="contentinfo">
+    SAN FRANCISCO KENDO DOJO | THIS IS A NOT-FOR-PROFIT ORGANIZATION
+  </footer><!-- #colophon -->
+
+</div><!-- #page -->
+</body>
+</html>

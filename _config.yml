@@ -1,0 +1,11 @@
+title: SF Kendo
+description: San Francisco Kendo Dojo
+url: "https://sanfranciscokendo.org"
+baseurl: ""
+
+markdown: kramdown
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - SECURITY.md
