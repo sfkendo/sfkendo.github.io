@@ -5,6 +5,9 @@ baseurl: ""
 
 markdown: kramdown
 
+plugins:
+  - jekyll-redirect-from
+
 exclude:
   - CLAUDE.md
   - README.md
